@@ -39,3 +39,18 @@
   - alias rmout='find . -type f -name "*.out" -delete' # This is useful to clean up the output files.
 - I've added a `.vscode/launch.json` file to the root of the project, which is useful to run the code in VSCode.
 
+### Section 04: Basic Concepts
+- Comments: `/* This is a comment */` or `// This is a comment`
+- Variables: `int myFavoriteNumber = 0;`
+- Constants: `const int myFavoriteNumber = 0;`
+- Data Types: `int`, `float`, `double`, `char`, `void`
+- Operators: `+`, `-`, `*`, `/`, `%`
+- Expressions: `a + b`
+- Statements: `if`, `for`, `while`, `do-while`
+- Functions: `int main() { return 0; }`
+- Preprocessor Directives: `#include <stdio.h>`, `#define PI 3.14` Anything that starts with a `#` is a preprocessor directive.
+- `#include <stdio.h>` is a preprocessor directive, which tells the compiler to include the standard input/output library.
+- A header file is a file that contains declarations of functions and variables that can be used in your code.
+- Using `< >` is a way to include a header file.
+- Using `""` is a way to include a local file.
+- You can use `#ifndef` to prevent the same header file from being included multiple times.
