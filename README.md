@@ -22,6 +22,7 @@
 - The `.c` file is the source file, which is the file that you write your code in.
 
 ### Section 02: Installing Required Software
+- You can use `gcc -o myFirstProgram myFirstProgram.c` to compile the code.
 - You can use `hexdump -C a.out` to see the compiled code.
 - You can use `objdump -d a.out` to see the assembly code.
 - You can use `nm a.out` to see the symbols in the code.
@@ -31,3 +32,10 @@
 - You can use `ldd a.out` to see the dynamic dependencies.
 
 ### Section 03: Starting To Write Code
+- `#include <stdio.h>` is a preprocessor directive, which tells the compiler to include the standard input/output library.
+- Don't ignore compiler warnings, because they can help you find bugs in your code. Treat them as errors.
+- I've added some aliases:
+  - alias cc='gcc *.c -o program.out' # This is useful to compile the code.
+  - alias rmout='find . -type f -name "*.out" -delete' # This is useful to clean up the output files.
+- I've added a `.vscode/launch.json` file to the root of the project, which is useful to run the code in VSCode.
+
