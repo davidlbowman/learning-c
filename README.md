@@ -51,6 +51,6 @@
 - Preprocessor Directives: `#include <stdio.h>`, `#define PI 3.14` Anything that starts with a `#` is a preprocessor directive.
 - `#include <stdio.h>` is a preprocessor directive, which tells the compiler to include the standard input/output library.
 - A header file is a file that contains declarations of functions and variables that can be used in your code.
-- Using `< >` is a way to include a header file.
-- Using `""` is a way to include a local file.
-- You can use `#ifndef` to prevent the same header file from being included multiple times.
+  - Using `< >` is a way to include a header file.
+  - Using `""` is a way to include a local file.
+  - You can use `#ifndef` to prevent the same header file from being included multiple times.
