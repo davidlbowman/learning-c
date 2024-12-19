@@ -54,3 +54,11 @@
   - Using `< >` is a way to include a header file.
   - Using `""` is a way to include a local file.
   - You can use `#ifndef` to prevent the same header file from being included multiple times.
+
+### Section 05: Variables and Data Types
+- RAM is the random access memory, which is the memory that the computer uses to store data.
+- Some variables names cannot be used, for example:
+  - `int main` is not allowed, because `main` is a reserved word.
+  - `temp$` is not allowed, because `$` is an invalid character.
+  - `my flag` is not allowed, because of the space.
+  - `1jason` is not allowed, because it starts with a number.
