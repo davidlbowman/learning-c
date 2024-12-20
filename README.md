@@ -106,3 +106,13 @@
 - `continue` is a statement that allows you to skip the rest of the code in a loop and go to the next iteration.
 - `goto` is a statement that allows you to jump to a specific label in a program. This is generally discouraged, because it can make the code harder to read and understand.
 - `return` is a statement that allows you to return a value from a function.
+
+### Section 08: Arrays
+- Arrays are a collection of variables of the same type.
+- Arrays are indexed starting at 0.
+- Arrays are declared like this: `int myArray[10];`
+- You can access the elements of an array using the index operator `[]`.
+- You can use the `sizeof` operator to find the size of an array.
+- You can use the `for` loop to iterate over the elements of an array.
+- You can't mix data types in an array.
+- Once you've delcared the size of an array, you can't change it.
