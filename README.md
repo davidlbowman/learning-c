@@ -62,3 +62,32 @@
   - `temp$` is not allowed, because `$` is an invalid character.
   - `my flag` is not allowed, because of the space.
   - `1jason` is not allowed, because it starts with a number.
+
+### Section 06: Operators
+- `-` is the subtraction operator. Even when used with negative numbers, it's still the subtraction operator.
+- `=` is the assignment operator.
+- `==` is the equality operator.
+- `!=` is the inequality operator.
+- `&&` is the logical AND operator.
+- `||` is the logical OR operator.
+- `!` is the logical NOT operator.
+- `sizeof` is an operator that returns the size of a variable in bytes.
+- `&` is the bitwise AND operator.
+- `|` is the bitwise OR operator.
+- `^` is the bitwise XOR operator.
+- `~` is the bitwise NOT operator.
+- `<<` is the left shift operator.
+- `>>` is the right shift operator.
+- `~` is the bitwise NOT operator.
+- Casting is the process of converting a value from one type to another.
+- `(int) myNumber` is a way to cast the variable `myNumber` to an integer.
+- `(double) myNumber` is a way to cast the variable `myNumber` to a double.
+- `(char *) myString` is a way to cast the variable `myString` to a character pointer.
+- `(int *) myPointer` is a way to cast the variable `myPointer` to an integer pointer.
+- `sizeof` is an operator that returns the size of a variable in bytes. You use this to find out how much memory a variable takes up. Don't calculate the size of a variable in your head, use `sizeof` to find out.
+- `*` is the pointer operator.
+- `?` is the ternary operator.
+- There is operator precedence, which is the order in which operators are evaluated. 
+- `()` has the highest precedence, followed by `*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `|`, `^`, `&&`, `||`, `?`, `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `<<=`, `>>=`, `&=`, `|=`, `^=`, `,`.
+- To solve for this, you can use parentheses to group the operations you want to evaluate first.
+- If two operators have the same precedence, then the operator that is to the left is evaluated first. This is called left associativity.
