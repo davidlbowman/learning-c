@@ -91,3 +91,18 @@
 - `()` has the highest precedence, followed by `*`, `/`, `%`, `+`, `-`, `<<`, `>>`, `&`, `|`, `^`, `&&`, `||`, `?`, `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `<<=`, `>>=`, `&=`, `|=`, `^=`, `,`.
 - To solve for this, you can use parentheses to group the operations you want to evaluate first.
 - If two operators have the same precedence, then the operator that is to the left is evaluated first. This is called left associativity.
+
+### Section 07: Control Flow
+- `if` is a statement that allows you to execute a block of code if a condition is true.
+- `else` is a statement that allows you to execute a block of code if a condition is false.
+- `else if` is a statement that allows you to execute a block of code if a condition is true.
+- `switch` is a statement that allows you to execute a block of code based on the value of a variable.
+- `case` is a statement that allows you to execute a block of code if a condition is true.
+- `break` is a statement that allows you to exit a switch statement.
+- `default` is a statement that allows you to execute a block of code if no other case matches.
+- `while` is a statement that allows you to execute a block of code while a condition is true.
+- `do-while` is a statement that allows you to execute a block of code while a condition is true.
+- `for` is a statement that allows you to execute a block of code while a condition is true.
+- `continue` is a statement that allows you to skip the rest of the code in a loop and go to the next iteration.
+- `goto` is a statement that allows you to jump to a specific label in a program. This is generally discouraged, because it can make the code harder to read and understand.
+- `return` is a statement that allows you to return a value from a function.
